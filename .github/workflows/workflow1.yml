@@ -1,6 +1,6 @@
-name:work1
+name: work1
 
-on:push
+on: push
 
 jobs:
     job1:
