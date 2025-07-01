@@ -1,9 +1,9 @@
-name:workflow1
+name:work1
 
 on:push
 
-jobs:
-     job1:
+job:
+    job1:
 	  name:First job
 	  runs-on:ubuntu-latest
 	  steps:
@@ -11,7 +11,7 @@ jobs:
 	       uses:actions/checkout@v2	
 	     - name:step two
 	       run:env | sort
-     job2:
+    job2:
 	  name:First job
 	  runs-on:ubuntu-latest
 	  steps:
