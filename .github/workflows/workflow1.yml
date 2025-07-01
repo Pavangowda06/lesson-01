@@ -12,7 +12,7 @@ job:
 	     - name: step two
 	       run: env | sort
     job2:
-	  name: First job
+	  name: second job
 	  runs-on: ubuntu-latest
 	  steps:
 	     - name: step one
